@@ -11,7 +11,7 @@ func TestMultiply(t *testing.T) {
 	}{
 		{2, 4, 8},
 		// Bug: This test is failing if b == 12
-		// {2, 12, 24},
+		{2, 12, 24},
 	}
 
 	for _, test := range tests {
