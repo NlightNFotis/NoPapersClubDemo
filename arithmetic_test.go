@@ -21,3 +21,12 @@ func TestMultiply(t *testing.T) {
 		}
 	}
 }
+
+func TestAdd(t *testing.T) {
+	got := Add(3, 2)
+	expected := 5
+
+	if got != expected {
+		t.Errorf("got %d want %d", got, expected)
+	}
+}
